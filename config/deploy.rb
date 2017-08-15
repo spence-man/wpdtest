@@ -6,20 +6,20 @@
 lock '3.8.1'
 
 # The WordPress admin user
-set :wp_user, 'yourname'
+set :wp_user, 'chappress'
 
 # The WordPress admin email address
-set :wp_email, 'yourname@example.com'
+set :wp_email, 'chappress@gmail.com'
 
 # The WordPress 'Site Title' for the website
-set :wp_sitename, 'WP Deploy'
+set :wp_sitename, 'chap-press'
 
 # The local environment URL.
-set :wp_localurl, 'http://wpdeploy.dev'
+set :wp_localurl, 'http://localhost:7777'
 
 # An identifying name for the application to be used by Capistrano
-set :application, 'wp-deploy'
-set :repo_url, 'git@github.com:Mixd/wp-deploy.git'
+set :application, 'chappress'
+set :repo_url, 'git@github.com:spence-man/wpdtest.git'
 
 
 ################################################################################
